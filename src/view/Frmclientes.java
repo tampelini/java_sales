@@ -599,7 +599,7 @@ public class FrmClientes extends javax.swing.JFrame {
         DaoCliente dao = new DaoCliente();
 
         // Executa o comando de cadastrar que irá salvar
-        // o objteto preparado no banco de dados 
+        // o objeto preparado no banco de dados 
         dao.cadastrarCliente(obj);
         
 
@@ -634,7 +634,29 @@ public class FrmClientes extends javax.swing.JFrame {
 
     private void btEditarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btEditarActionPerformed
         // botao editar
+        Cliente obj = new Cliente();
+        
+        obj.setNome(txtnome.getText());
+        obj.setRg(txtrg.getText());
+        obj.setCpf(txtcpf.getText());
+        obj.setEmail(txtemail.getText());
+        obj.setTelefone(txtfixo.getText());
+        obj.setCelular(txtcel.getText());
+        obj.setCep(txtcep.getText());
+        obj.setEndereco(txtend.getText());
+        obj.setNumero(Integer.parseInt(txtnumero.getText()));
+        obj.setComplemento(txtcomplemento.getText());
+        obj.setBairro(txtbairro.getText());
+        obj.setCidade(txtcidade.getText());
+        obj.setUf(cbuf.getSelectedItem().toString());
+        obj.setId(Integer.parseInt(txtcodigo.getText()));
+        
+        // cria um objeto do tipo DAO Cliente
+        DaoCliente dao = new DaoCliente();
 
+        // Executa o comando de cadastrar que irá editar
+        // o objeto preparado no banco de dados 
+        dao.editarCliente(obj);
 
 
     }//GEN-LAST:event_btEditarActionPerformed
