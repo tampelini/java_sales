@@ -52,14 +52,14 @@
               <Component id="painelTituloTela" min="-2" max="-2" attributes="0"/>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Component id="aba_dados" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Component id="btnNovo" min="-2" pref="42" max="-2" attributes="0"/>
                   <Component id="btnSalvar" min="-2" pref="42" max="-2" attributes="0"/>
                   <Component id="btEditar" min="-2" pref="42" max="-2" attributes="0"/>
                   <Component id="btExcluir" min="-2" pref="42" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace pref="27" max="32767" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
