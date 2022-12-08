@@ -6,15 +6,13 @@
 package view;
 
 import dao.DaoCliente;
-import model.Cliente;
-import model.Utilitarios;
 import java.awt.Color;
 import java.awt.event.KeyEvent;
-
 import java.util.List;
-
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
+import model.Cliente;
+import model.Utilitarios;
 
 /**
  *

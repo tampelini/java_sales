@@ -5,11 +5,6 @@
  */
 package dao;
 
-import jdbc.ConnectionFactory;
-
-import model.Funcionario;
-//import view.FrmLogin;
-//import view.Frmmenu;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -17,6 +12,10 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 import javax.swing.JOptionPane;
+import jdbc.ConnectionFactory;
+import model.Funcionario;
+import view.FrmLogin;
+import view.FrmMenu;
 
 /**
  *
@@ -278,7 +277,7 @@ public class DaoFuncionario {
         }
     }
 
-    /*
+    
     //Metodo efetuaLogin
     public void efetuaLogin(String email, String senha ) {
         try {
@@ -298,7 +297,7 @@ public class DaoFuncionario {
                 if (rs.getString("nivel_acesso").equals("Admin")) {
 
                     JOptionPane.showMessageDialog(null, "Seja bem vindo ao Sistema");
-                    Frmmenu tela = new Frmmenu();
+                    FrmMenu tela = new FrmMenu();
                      tela.setUsuarioLogado(rs.getString("nome"));
                     
                     tela.setVisible(true);
@@ -308,7 +307,7 @@ public class DaoFuncionario {
                 else if (rs.getString("nivel_acesso").equals("Usuário")) {
                     
                     JOptionPane.showMessageDialog(null, "Seja bem vindo ao Sistema");
-                    Frmmenu tela = new Frmmenu();
+                    FrmMenu tela = new FrmMenu();
                     tela.setUsuarioLogado(rs.getString("nome"));
                     
                     //Desabilitar os menus
@@ -331,5 +330,5 @@ public class DaoFuncionario {
         }
 
     }
-*/
+
 }
