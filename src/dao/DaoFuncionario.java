@@ -293,7 +293,7 @@ public class DaoFuncionario {
                 //Usuario logou
 
                 //Caso o usuario seja do tipo admin
-                if (rs.getString("nivel_acesso").equals("Admin")) {
+                if (rs.getString("nivel_acesso").equals("Administrador")) {
 
                     JOptionPane.showMessageDialog(null, "Seja bem vindo ao Sistema");
                     FrmMenu tela = new FrmMenu();
