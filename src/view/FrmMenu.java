@@ -284,18 +284,16 @@ public class FrmMenu extends javax.swing.JFrame {
 
     private void jMenuItem5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem5ActionPerformed
         //Menu consulta de produtos
-        
-        //FrmProduto tela = new FrmProduto();
-        //tela.jTabbedPane1.setSelectedIndex(1);
-        //tela.setVisible(true);
+        FrmProduto tela = new FrmProduto();
+        tela.jTabbedPane1.setSelectedIndex(1);
+        tela.setVisible(true);
 
     }//GEN-LAST:event_jMenuItem5ActionPerformed
 
     private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
-        // Menu Cliente
-        
-        //Frmcliente tela = new Frmcliente();
-        //tela.setVisible(true);
+        // TODO add your handling code here:
+        FrmCliente tela = new FrmCliente();
+        tela.setVisible(true);
     }//GEN-LAST:event_jMenuItem1ActionPerformed
 
     private void jMenuItem2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem2ActionPerformed
@@ -309,23 +307,23 @@ public class FrmMenu extends javax.swing.JFrame {
     }//GEN-LAST:event_jMenuItem3ActionPerformed
 
     private void jMenuItem6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem6ActionPerformed
-        //FrmVenda tela = new FrmVenda();
-        //tela.setVisible(true);
+          FrmVenda tela = new FrmVenda();
+        tela.setVisible(true);
     }//GEN-LAST:event_jMenuItem6ActionPerformed
 
     private void menu_posicaoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menu_posicaoActionPerformed
-        //FrmTotalVenda tela = new FrmTotalVenda();
-        //tela.setVisible(true);
+        FrmTotalVenda tela = new FrmTotalVenda();
+        tela.setVisible(true);
     }//GEN-LAST:event_menu_posicaoActionPerformed
 
     private void menu_controlevendasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menu_controlevendasActionPerformed
-         //FrmHistorico tela = new FrmHistorico();
-        //tela.setVisible(true);
+         FrmHistorico tela = new FrmHistorico();
+        tela.setVisible(true);
     }//GEN-LAST:event_menu_controlevendasActionPerformed
 
     private void jMenuItem4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem4ActionPerformed
-        //   FrmEstoque tela = new FrmEstoque();
-        //tela.setVisible(true);
+           FrmEstoque tela = new FrmEstoque();
+        tela.setVisible(true);
     }//GEN-LAST:event_jMenuItem4ActionPerformed
 
     /**
