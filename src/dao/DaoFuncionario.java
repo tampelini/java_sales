@@ -277,9 +277,8 @@ public class DaoFuncionario {
         }
     }
 
-    
     //Metodo efetuaLogin
-    public void efetuaLogin(String email, String senha ) {
+    public void efetuaLogin(String email, String senha) {
         try {
 
             //1 passo - SQL
@@ -298,22 +297,20 @@ public class DaoFuncionario {
 
                     JOptionPane.showMessageDialog(null, "Seja bem vindo ao Sistema");
                     FrmMenu tela = new FrmMenu();
-                     tela.setUsuarioLogado(rs.getString("nome"));
-                    
-                    tela.setVisible(true);
-                } 
+                    tela.setUsuarioLogado(rs.getString("nome"));
 
-//Caso o usuario seja do tipo limitado 
+                    tela.setVisible(true);
+                } //Caso o usuario seja do tipo limitado 
                 else if (rs.getString("nivel_acesso").equals("Usuário")) {
-                    
+
                     JOptionPane.showMessageDialog(null, "Seja bem vindo ao Sistema");
                     FrmMenu tela = new FrmMenu();
                     tela.setUsuarioLogado(rs.getString("nome"));
-                    
+
                     //Desabilitar os menus
                     tela.menu_posicao.setEnabled(false);
                     tela.menu_controlevendas.setVisible(false);
-                   
+
                     tela.setVisible(true);
 
                 }

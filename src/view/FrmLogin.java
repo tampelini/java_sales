@@ -7,7 +7,6 @@ package view;
 
 
 import dao.DaoFuncionario;
-
 import javax.swing.JOptionPane;
 
 /**
