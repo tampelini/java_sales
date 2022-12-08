@@ -2,6 +2,11 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/C:/Users/tampe/SynologyDrive/BioPark/Connect/Connect%2002%20-%20Web/Orientação%20a%20Objetos/Códigos/Sistema%20Vendas%20Aula/src/view/FrmCliente.java</file>
+            <file>file:/C:/Users/tampe/SynologyDrive/BioPark/Connect/Connect%2002%20-%20Web/Orientação%20a%20Objetos/Códigos/Sistema%20Vendas%20Aula/src/model/Utilitarios.java</file>
+            <file>file:/C:/Users/tampe/SynologyDrive/BioPark/Connect/Connect%2002%20-%20Web/Orientação%20a%20Objetos/Códigos/Sistema%20Vendas%20Aula/src/dao/DaoCliente.java</file>
+            <file>file:/C:/Users/tampe/SynologyDrive/BioPark/Connect/Connect%2002%20-%20Web/Orientação%20a%20Objetos/Códigos/Sistema%20Vendas%20Aula/src/jdbc/ConnectionFactory.java</file>
+        </group>
     </open-files>
 </project-private>
